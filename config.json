@@ -1,0 +1,9 @@
+{
+	"ip":"encsmp.ga",
+	"port": "58400",
+	"name": "baimbot",
+	"auto-night-skip":"true",
+	"login-enabled":"false",
+	"register-cmd":"/register pass123 ",
+	"login-cmd":"/login pass123 "
+}
