@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("Halo semua");
+	bot.chat("Halo semua perkenalkan nama saya baim saya sebagai bot disini supaya server on 24jam");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Selamat bergabung di server ini")
+	bot.chat("Selamat bergabung di server enc smp")
 	first = false;
 	}
 	else{
-		bot.chat("Diperbarui oleh vanevgt")
+		bot.chat("Diperbarui oleh baim")
 		first = true;
 	}
   }, 3600000 * i); 
